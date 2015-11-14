@@ -1,0 +1,29 @@
+{
+  "name": "AdminLF",
+  "authors": [
+    "xiahaihu <xiahaihu2009@gmail.com>"
+  ],
+  "description": "AdminLF base of Laravel & AdminLte",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Laravel",
+    "AdminLte"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.4.0",
+    "AdminLTE": "admin-lte#~2.3.2",
+    "Ionicons": "ionicons#~2.0.1",
+    "html5shiv": "~3.7.3",
+    "respond": "~1.4.2"
+  }
+}
