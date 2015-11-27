@@ -21,7 +21,7 @@ Route::post('admin/auth', ['as' => 'admin.auth', 'uses' => 'Admin\AuthController
 
 Route::get('admin/logout', ['as' => 'admin.logout', 'uses' => 'Admin\AuthController@logout']);
 
-Route::group(['prefix' => 'admin'], function() {
+Route::group(['prefix' => 'admin', 'middleware' => 'admin.auth'], function() {
 
     Route::get('/', ['as' => 'admin.main', 'uses' => 'Admin\ConsoleController@index']);
 
