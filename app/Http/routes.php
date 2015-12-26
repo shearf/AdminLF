@@ -25,6 +25,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin.auth'], function() {
 
     Route::get('/', ['as' => 'admin.main', 'uses' => 'Admin\ConsoleController@index']);
 
+    Route::resource('user', 'Admin\UserController');
+
 });
 
 

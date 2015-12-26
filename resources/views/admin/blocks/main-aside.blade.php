@@ -32,7 +32,7 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
             <li class="header">HEADER</li>
-            <li><a href=""><i class="fa fa-link"></i> <span></span></a></li>
+            <li><a href="{{ route('admin.user.index') }}">Manage User <i class="fa fa-link"></i> <span></span></a></li>
             {{--<li class="treeview">--}}
                 {{--<a href="{{ route('admin.product.index') }}"><i class="fa fa-link"></i> <span>产品</span> <i class="fa fa-angle-left pull-right"></i></a>--}}
                 {{--<ul class="treeview-menu">--}}

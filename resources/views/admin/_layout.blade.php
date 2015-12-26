@@ -24,6 +24,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     -->
     <link rel="stylesheet" href="{{ asset('bower_components/AdminLTE/dist/css/skins/skin-blue.min.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/ui.css') }}">
+
     @yield('head_css')
 
     @yield('head_style')
